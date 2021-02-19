@@ -1,4 +1,5 @@
-class Character:
+from Movable import Movable
+class Character(Movable):
     _life = 50
     _agility= 2
     _strength= 2
@@ -34,15 +35,3 @@ class Character:
     
     def attack(self, arg):
         print(f'{self.name} : Rrrrrrrrr ....')
-
-    def moveRight(self):
-        print(f"{self._name} : Moves right")
-
-    def moveLeft(self):
-        print(f"{self._name} : Moves left")
-
-    def moveBack(self):
-        print(f"{self._name} : Moves back")
-
-    def moveForward(self):
-        print(f"{self._name} : Moves forward")

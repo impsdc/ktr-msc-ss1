@@ -2,11 +2,14 @@ from Character import Character
 from Warrior import Warrior
 from Mage import Mage
 
+
 def main():
-   perso = Mage('bob')
-   perso.moveForward()
-   tqt = Character('cool', 'js')
-   tqt.moveBack()
+   bob = Character('bob', 'class')
+   bob.moveForward()
+   bib = Mage("bib")
+   bib.moveBack()
+   bab = Warrior("bab")
+   bab.moveLeft()
 
 
 if __name__ == '__main__':

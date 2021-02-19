@@ -19,7 +19,7 @@ class Mage(Character):
         else:
             print(f'{self.name} does not attack')
             return ''
-            
+
     def moveRight(self):
         print(f"{self._name} : Moves right furtively.")
 
