@@ -20,3 +20,15 @@ class Warrior(Character):
         else:
             print(f'{self.name} does not attack')
             return ''
+
+    def moveRight(self):
+        print(f"{self._name} : Moves right like a bad boy.")
+
+    def moveLeft(self):
+        print(f"{self._name} : Moves left like a bad boy.")
+
+    def moveBack(self):
+        print(f"{self._name} : Moves back like a bad boy.")
+
+    def moveForward(self):
+        print(f"{self._name} : Moves forward like a bad boy.")
