@@ -35,3 +35,7 @@ class Character(Movable):
     
     def attack(self, arg):
         print(f'{self.name} : Rrrrrrrrr ....')
+
+    # Do not overide this method !
+    def _unsheathe(self):
+        print(f"{self.name} unsheathes his weapon.")

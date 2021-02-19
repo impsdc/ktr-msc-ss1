@@ -10,6 +10,7 @@ def main():
    bib.moveBack()
    bab = Warrior("bab")
    bab.moveLeft()
+   bab._unsheathe()
 
 
 if __name__ == '__main__':
