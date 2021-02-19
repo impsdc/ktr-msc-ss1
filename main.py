@@ -3,11 +3,10 @@ from Warrior import Warrior
 from Mage import Mage
 
 def main():
-    jean = Warrior('Jean')
-    paul = Mage('Paul')
-
-    jean.attack('hammer')
-    paul.attack('wand')
+   perso = Mage('bob')
+   perso.moveForward()
+   tqt = Character('cool', 'js')
+   tqt.moveBack()
 
 
 if __name__ == '__main__':
