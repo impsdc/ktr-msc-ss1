@@ -9,6 +9,7 @@ class Warrior(Character):
     
     def __init__(self, name):
         self._name = name
+        return print(f"{name} : My name will go down in history !")
         
 
     def attack(self, arg):

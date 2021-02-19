@@ -9,6 +9,7 @@ class Mage(Character):
     
     def __init__(self, name):
         self._name = name
+        return print(f"{name} : May the gods be with me .")
 
     def attack(self, arg):
         if arg == 'magic' or arg == "wand":
